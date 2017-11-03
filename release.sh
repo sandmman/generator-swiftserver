@@ -7,8 +7,8 @@ echo "Creating release ${VERSION}"
 #git tag $VERSION && git push origin $VERSION || true
 # Merge back into develop and push those changes
 #git fetch origin && git checkout develop && git merge origin/master && git push origin develop
-echo npm publish 
-echo "NPM_TOKEN=${NPM_TOKEN}"
+# npm publish 
+env
 
 # Deleting the old release branch
 #BRANCH_TO_DELETE=updateTo$VERSION
